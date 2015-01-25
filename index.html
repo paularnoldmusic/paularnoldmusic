@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+    <meta charset="utf-8">
+    <title>Paul Arnold</title>
+    <meta name="description" content="Lin Maria, Make Up Artists and Purveyor of Beauty and Grace · Ottawa, Canada">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Lina Maria, Make Up Artists and Purveyor of Beauty and Grace · Ottawa, Canada">
+    <meta property="og:url" content="http://linamaria.ca">
+    <meta property="og:site_name" content="Lina Maria's Portfolio Website">
+    <meta property="og:description" content="Lina Maria, Make Up Artists and Purveyor of Beauty and Grace · Ottawa, Canada">
+    <meta property="og:image" content="images/lina-logo.jpg">
+    <meta name="twitter:card" content="article">
+    <meta name="twitter:title" content="Lin Maria, Make Up Artists and Purveyor of Beauty and Grace · Ottawa, Canada">
+    <meta name="twitter:url" content="http://airugo.ca">
+    <meta name="twitter:site_name" content="Lina Mairia's Website">
+    <meta name="twitter:description" content="Lina Maria, Make Up Artists and Purveyor of Beauty and Grace · Ottawa, Canada">
+    <meta name="twitter:image0" content="images/lina-logo.jpg">  
+    
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300italic,700,400italic,300' rel='stylesheet' type='text/css'>
+    
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+     
+<body>     
+<header role="navigation">
+    <a href="#home"><img class="flex-img logo" src="images/logo.svg"/></a>
+    <a href="#nav" class="nav-btn hide-text">Navigation</a>
+    <nav class="nav nav-top" data-state="collapsed">
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div role="banner" id="home" class="banner">
+    <div class="banner-text">
+        <p>Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper.</p>
+        <div class="ban-btn">
+            <a href="#contact"><h4>Let's Talk</h4></a>
+        </div>
+    </div>
+</div>
+
+<section role="contentinfo" id="services" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 serv">
+    <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 serv-info serv-1">
+            <h2>Editorial Makeup</h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            </div>
+        
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 serv-info serv-2">
+            <h2>Wedding Party and Proms</h2>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+            </div>
+        
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 serv-info">
+            <h2>Household Furnaces</h2>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>
+    </div>
+    </section>
+
+<section role="contentinfo">
+    <div id="contact" class="contact">
+        <ul>
+            <li>613·555·5555</li>
+            <li>airugo@gmail.ca</li>
+        </ul>
+    </div>
+        <div class="social">
+            <ul>
+                <li><a href="#" target="_blank"><img src="images/facebook.svg" alt="AirUGo Facebook"></a></li>
+                <li><a href="#" target="_blank"><img src="images/twitter.svg" alt="AirUGo Twitter"></a></li>
+                <li><a href="#" target="_blank"><img src="images/google-plus.svg" alt="AirUGo Google Plus"></a></li>
+                <li><a href="#" target="_blank"><img src="images/instagram.svg" alt="Jared Lebel's Instagram"></a></li>
+                <li><a href="#" target="_blank"><img src="images/linkedin.svg" alt="AirUGo LinkedIn"></a></li>
+            </ul>
+            <p>Copyright © 2015 AirUGo</p>
+        </div>
+</section>
+    
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+     <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+    </script>
+    <script src="js/nav.js"></script>
+</body>
+</html>
