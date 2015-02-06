@@ -143,6 +143,17 @@ figcaption {
     }
 
     figcaption {
+        padding: 1.5rem 2rem 0;
+    } 
+}
+
+@media only screen and (min-width: 75em) {
+    .profile {
+        width: 30%;
+        margin-top: 1.5rem;
+    }
+
+    figcaption {
         padding: 1.5rem 8.5rem 0;
     } 
 }
@@ -190,6 +201,14 @@ main {
 }
 
 @media only screen and (min-width: 35em) {
+
+    main {
+        padding: 5rem 7%;
+    }
+
+}
+
+@media only screen and (min-width: 55em) {
 
     main {
         padding: 5rem 20%;
