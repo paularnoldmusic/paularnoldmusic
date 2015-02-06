@@ -60,7 +60,11 @@ h2, .dos {font-size: 3.375em;}
 
 h3, .tres {font-size: 2.25em;}
 
-h4, .cuatro {font-size: 1.5em;}
+h4, .cuatro {font-size: 1.25em;}
+
+@media only screen and (min-width: 35em) {
+    h4, .cuatro {font-size: 1.5em;}
+}
 
 .p_lg {font-size: 1.25em;}
 
@@ -148,11 +152,6 @@ figcaption {
 }
 
 @media only screen and (min-width: 75em) {
-    .profile {
-        width: 30%;
-        margin-top: 1.5rem;
-    }
-
     figcaption {
         padding: 1.5rem 8.5rem 0;
     } 
